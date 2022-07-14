@@ -1,0 +1,45 @@
+#tooltip {
+    position: absolute;
+    padding: 10px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+  }
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #708090;
+    background-size: 64px 128px;
+    font: 10px sans-serif;
+}
+
+.main .container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    align-self: center;
+    position: relative;
+  }
+
+.main .container .visHolder {
+    top: 6em;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+  opacity: 0.8;
+}
